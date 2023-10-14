@@ -273,4 +273,13 @@
     color:#FFD700;
   
   }
+
+  #nemoDeFondo{
+    
+    margin-top: 5vh;
+    height: 70vh;
+    width:auto;
+    z-index: 50;
+    
+  }
   }
