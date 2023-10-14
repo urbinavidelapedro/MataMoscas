@@ -267,10 +267,12 @@
 
    .nav-links2 li:hover{
     transform: scale(1.1);
+    z-index: 1000;
   }
   
   .nav-links2 li a:hover{
     color:#FFD700;
+    z-index: 1000;
   
   }
 
@@ -282,4 +284,21 @@
     z-index: 50;
     
   }
+
+  navbar{
+    z-index: 1000;
+  }
+
+  main{
+    z-index: 10;
+  }
+
+
+  #nemoDeFondo{
+    
+    margin-top: 10vh;
+    height: 70vh;
+    width:auto;
+    
+
   }
